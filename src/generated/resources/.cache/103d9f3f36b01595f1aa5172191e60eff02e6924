@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-13T17:59:08.0264562	Registries
+// 1.21.1	2025-04-14T10:24:08.6090505	Registries
 1db02fc728a0bf136552ee14dc99140e34613f35 data/irons_jewelry/irons_jewelry/part/band_barbed.json
 3b6177b2fc9d7c038733a5d667ffa341d548963d data/irons_jewelry/irons_jewelry/part/band_gem.json
 6ce5ce51a0fa2acf810900c0620e9466665de6e0 data/irons_jewelry/irons_jewelry/part/band_gem_superior.json
@@ -17,6 +17,7 @@ d54e74653f91899a429cc1c4ddd1104938504be1 data/irons_jewelry/irons_jewelry/part/c
 4f5bc7d8ad7a2b23c4ae1ab086909a73343e033f data/irons_jewelry/irons_jewelry/part/gem_simple_amulet.json
 64831c631cb972d300ab642d26647c6929c0b7db data/irons_jewelry/irons_jewelry/part/gem_tearstone.json
 31ee60443ce7588c1d8ea03f133688039b8b6482 data/irons_jewelry/irons_jewelry/part/haggler_stone.json
+2e14bbfb6ae894e99625611e97bbb4862c03d874 data/irons_jewelry/irons_jewelry/part/pendant_basic.json
 5639f45701b3245b3d4affe0bc99a11ece9e02e8 data/irons_jewelry/irons_jewelry/part/piglin_signet.json
 20b60e9574f7b0e23fe7797b87ca3f0af636c995 data/irons_jewelry/irons_jewelry/pattern/amulet_of_protection.json
 ff21effb49a972aace59c515bde1234e9bb1effb data/irons_jewelry/irons_jewelry/pattern/barbed_band.json
@@ -28,6 +29,7 @@ d92e15acc213022c02445bc98b2f0b463c53518c data/irons_jewelry/irons_jewelry/patter
 a04f843bf8b41337188c5b144d5dce1b6d4ce7a7 data/irons_jewelry/irons_jewelry/pattern/simple_amulet.json
 c185ca07061c2b0ba1864a29ac994697d62814c0 data/irons_jewelry/irons_jewelry/pattern/simple_band.json
 197aa28218be4c80057a6911666bc7d357ecb9c9 data/irons_jewelry/irons_jewelry/pattern/simple_chain.json
+1db0b2fbd8f9baba8b54f59acfc915e54af65125 data/irons_jewelry/irons_jewelry/pattern/simple_pendant.json
 41cd4c5e6d99370f1a7cb9c322619ae88f89922e data/irons_jewelry/irons_jewelry/pattern/stalwart_ring.json
 1b98b60cacb6a3fe612ea0a333480f3fbbce889e data/irons_jewelry/irons_jewelry/pattern/superior_gemset_ring.json
 7ef7a53f0b6d091c6ab1e1dd390ba2e702295f9d data/irons_jewelry/irons_jewelry/pattern/tearstone_ring.json

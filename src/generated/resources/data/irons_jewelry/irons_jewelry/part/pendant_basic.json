@@ -1,0 +1,8 @@
+{
+  "allowedMaterialTypes": [
+    "metal"
+  ],
+  "baseTextureLocation": "irons_jewelry:item/base/pendant_basic",
+  "descriptionId": "part.irons_jewelry.pendant_basic",
+  "paletteKey": "irons_jewelry:palettes/gold"
+}

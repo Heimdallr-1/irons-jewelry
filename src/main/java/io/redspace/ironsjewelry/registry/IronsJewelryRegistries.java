@@ -119,6 +119,7 @@ public class IronsJewelryRegistries {
     public static Holder<PartDefinition> GEMS_SIDE;
     public static Holder<PartDefinition> PIGLIN_SIGNET;
     public static Holder<PartDefinition> HAGGLER_STONE;
+    public static Holder<PartDefinition> PENDANT;
 
     public static Holder<PatternDefinition> GEMSET_RING;
     public static Holder<PatternDefinition> SIMPLE_BAND;
@@ -133,6 +134,7 @@ public class IronsJewelryRegistries {
     public static Holder<PatternDefinition> SIMPLE_CHAIN;
     public static Holder<PatternDefinition> TEARSTONE_RING;
     public static Holder<PatternDefinition> HAGGLER_RING;
+    public static Holder<PatternDefinition> SIMPLE_PENDANT;
 
     public static final RegistrySetBuilder builder = new RegistrySetBuilder()
             .add(IronsJewelryRegistries.Keys.PART_REGISTRY_KEY, bootstrap -> {
@@ -180,6 +182,8 @@ public class IronsJewelryRegistries {
                         List.of("emerald"),
                         IronsJewelry.id("item/base/gem_round_large")
                 ));
+                PENDANT = bootstrap.register(prk(IronsJewelry.id("pendant_basic")), PartDefinition.simpleMetalPart(IronsJewelry.MODID, "pendant_basic"));
+
             })
             .add(IronsJewelryRegistries.Keys.PATTERN_REGISTRY_KEY, bootstrap -> {
                 HolderGetter<DamageType> damageGetter = bootstrap.lookup(Registries.DAMAGE_TYPE);
@@ -352,6 +356,19 @@ public class IronsJewelryRegistries {
                         ),
                         Optional.of(BAND_GEM),
                         false, 2
+                ));
+                SIMPLE_PENDANT = bootstrap.register(pnk(IronsJewelry.id("simple_pendant")), new PatternDefinition(
+                        "pattern.irons_jewelry.simple_pendant",
+                        JewelryTypeRegistry.NECKLACE.get(),
+                        List.of(
+                                new PartIngredient(CHAIN_SIMPLE_AMULET, 4, 0, List.of()),
+                                new PartIngredient(PENDANT, 1, 1, List.of(
+                                        new Bonus(BonusTypeRegistry.ATTRIBUTE_BONUS.get(), 1)
+                                ))
+                        ),
+                        Optional.of(CHAIN_SIMPLE_AMULET),
+                        false,
+                        1
                 ));
             });
 }
